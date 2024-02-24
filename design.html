@@ -1,0 +1,25 @@
+<!-- HTML (index.html) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Thumbnail Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Thumbnail Downloader</h1>
+        <div class="form-container">
+            <input type="text" id="videoUrl" class="video-url" placeholder="Enter YouTube Video URL">
+            <button onclick="getThumbnail()" class="btn-download">Get Thumbnail</button>
+        </div>
+        <div id="thumbnailContainer" class="thumbnail-container">
+            <div class="loader"></div>
+            <div id="thumbnailResult"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
